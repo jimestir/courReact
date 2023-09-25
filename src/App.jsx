@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react'
+import FirstApp from './FirstApp'
 
-function App() {
-  return <div>Hola</div>;
+function App () {
+  return (
+    <>
+      <FirstApp />
+    </>
+  )
 }
 
-export default App;
+export default App
