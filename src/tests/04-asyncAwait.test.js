@@ -1,9 +1,8 @@
-import { getImage } from '../exercise/04-asyncAwait'
+import { getPokemon } from '../exercise/04-asyncAwait'
 
 describe('Test in 04-asynAwait.js ', () => {
   test('Has to return an image', async () => {
-    const url = await getImage()
-    console.log(url)
-    expect(typeof url).toBe('string')
+    const data = await getPokemon()
+    expect(typeof data.name).toBe('string')
   })
 })
