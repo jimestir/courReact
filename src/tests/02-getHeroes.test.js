@@ -15,7 +15,6 @@ describe('test in 01-getHeroes.test.js', () => {
   test('getHeroesByOwner has to return the properties DC', () => {
     const owner = 'DC'
     const message = getHeroesByOwner(owner)
-    // console.log(message)
 
     expect(message.length).toBe(3)
     expect(message).toEqual([
@@ -29,7 +28,6 @@ describe('test in 01-getHeroes.test.js', () => {
   test('getHeroesByOwner has to return the properties Marvel', () => {
     const owner = 'Marvel'
     const message = getHeroesByOwner(owner)
-    // console.log(message)
 
     expect(message.length).toBe(2)
     expect(message).toEqual([
