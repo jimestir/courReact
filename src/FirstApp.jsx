@@ -4,7 +4,9 @@ import PropTypes from 'prop-types'
 function FirstApp ({ title, Subtitle, numberPage }) {
   return (
     <>
-      <h1 className='h1'> {title} </h1>
+      <h1 data-testid='test-title' className='h1'> {title} </h1>
+      <h2>{Subtitle}</h2>
+      <h2>{Subtitle}</h2>
       <h2>{Subtitle}</h2>
       <span>{numberPage}</span>
     </>
