@@ -12,7 +12,7 @@ function CounterApp ({ initialValue }) {
       <div>
         <button onClick={increment}>+1</button>
         <button onClick={decrement}>-1</button>
-        <button onClick={reset}>Reset</button>
+        <button aria-label='button-reset' onClick={reset}>Reset</button>
       </div>
     </>
   )
