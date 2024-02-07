@@ -19,7 +19,7 @@ export const MemoHook = () => {
 }
 function heavyStuff(iterationNumber = 500) {
   for (let i = 0; i < iterationNumber; i++) {
-    console.log('Ahi Vamos...')
+    // console.log('Ahi Vamos...')
   }
   return `${iterationNumber} iteraciones realizadas`
 }

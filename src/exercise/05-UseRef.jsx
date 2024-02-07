@@ -4,7 +4,7 @@ function UseRef() {
   const ref = useRef()
 
   const onfocus = () => {
-    console.log(ref)
+    // console.log(ref)
     ref.current.select()
   }
   return (

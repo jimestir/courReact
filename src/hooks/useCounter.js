@@ -3,8 +3,8 @@ function useCounter(initialValue = 10) {
   const [counter, setCounter] = useState(initialValue)
 
   const increment = (value = 1) => setCounter(counter + value)
-  const decrement = (value) => {
-    console.log(value)
+  const decrement = (value = 1) => {
+    // console.log(value)
     if (counter - value < 0) return
     return setCounter(counter - value)
   }

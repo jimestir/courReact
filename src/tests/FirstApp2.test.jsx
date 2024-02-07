@@ -12,7 +12,7 @@ describe('test in <FirstApp />', () => {
   })
   test('Debe de mostrar el mensaje "Hello i am Jimmy"', () => {
     render(<FirstApp title={title} numberPage={numberPage} />)
-    screen.debug()
+    // screen.debug()
     expect(screen.getByText(title)).toBeTruthy()
   })
   test('Debe de mostrar el titulo en un h1', () => {
