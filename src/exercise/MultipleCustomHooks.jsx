@@ -9,7 +9,7 @@ function MultipleCustomHooks () {
   return (
     <>
 
-      <h1 className='p-2'>Breacking Bad Quotet</h1>
+      <h1 className='p-2'>Breaking Bad Quote</h1>
       <hr />
       {
       isLoading

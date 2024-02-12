@@ -39,7 +39,7 @@ describe('Prueba en useCounter', () => {
 
   test('should reset counter', () => {
     const { result } = renderHook(() => useCounter(100))
-    const {increment, reset } = result.current
+    const { increment, reset } = result.current
 
     act(() => {
       increment()
