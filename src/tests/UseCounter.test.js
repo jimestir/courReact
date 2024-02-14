@@ -19,7 +19,7 @@ describe('Prueba en useCounter', () => {
 
   test('should increment counter', () => {
     const { result } = renderHook(() => useCounter(100))
-    const { counter, increment } = result.current
+    const { increment } = result.current
     act(() => {
       increment()
     })
