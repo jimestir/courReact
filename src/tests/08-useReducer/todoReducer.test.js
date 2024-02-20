@@ -49,5 +49,8 @@ describe('test in todoReducer', () => {
 
     const newState = todoReducer(initialState, action)
     expect(newState[0].done).toBeTruthy()
+
+    const newState2 = todoReducer(newState, action)
+    expect(newState2[0].done).toBeFalsy()
   })
 })
